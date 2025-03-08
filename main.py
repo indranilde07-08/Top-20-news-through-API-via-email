@@ -21,5 +21,4 @@ for article in content["articles"][:20]:
 # convert list to string
 message= "Subject: Today's Top 20 News \n\nHere are today's top 20 article\n\n"+"\n".join(message_list)
 receiver_email = input("which you want send email?")
-print("Send the email",message)
 send_email(message=message,receiver_email=receiver_email)
